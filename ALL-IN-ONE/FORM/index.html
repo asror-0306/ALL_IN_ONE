@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- main css -->
+    <link href="./style.css" rel="stylesheet" />
+    <title>FORM</title>
+</head>
+<body>
+    <div class="container">
+        <!-- -------------TEXT------------- -->
+        <form action="/action_page.php">
+            <label for="name">What is your name?</label>
+            <input id="name"
+                   name="What is your name? "
+                   placeholder="Write your name"
+                   required
+                   type="text" />
+            <button type="button">Submit</button>
+        </form>
+
+        <!-- -------------TEXT------------- -->
+        <form action="/action_page.php">
+            <label for="name">What is your fullname?</label>
+            <input disabled
+                   id="text"
+                   name="What is your fullname"
+                   placeholder="Write your name"
+                   type="text" />
+            <button type="button">Submit</button>
+        </form>
+
+        <!-- -------------TEXT------------- -->
+        <form action="/action_page.php">
+            <label for="name">What is your name?</label>
+            <input id="name"
+                   name="What is your name? "
+                   placeholder="Write your name"
+                   readonly
+                   type="text"
+                   value="Solih Banda" />
+            <button type="button">Submit</button>
+        </form>
+
+        <!-- -------------TEXT------------- -->
+        <form action="/action_page.php">
+            <label for="name">What is your fullname?</label>
+            <input id="text"
+                   maxlength="10"
+                   name="What is your fullname"
+                   placeholder="Write your fullname"
+                   type="text"
+                   value="Solih Banda" />
+            <button type="button">Submit</button>
+        </form>
+
+        <!-- -------------EMAIL------------- -->
+        <form action="/action_page.php">
+            <label for="email">What is your email?</label>
+            <input id="email" name="What is your email?" type="email" />
+        </form>
+
+        <!-- -------------FILE------------- -->
+        <form action="/action_page.php">
+            <label for="file">Which is your book?</label>
+            <input id="file" name="Which is your file?" type="file" />
+        </form>
+
+        <!-- -------------DATE------------- -->
+        <form action="/action_page.php">
+            <label for="date">What is a date?</label>
+            <input autofocus id="date" name="What is a date?" type="date" />
+        </form>
+
+        <!-- -------------TEL------------- -->
+        <form action="/action_page.php">
+            <label for="number">What is your phone number?</label>
+            <input id="number"
+                   max="11"
+                   min="7"
+                   name="What is your phone number?"
+                   type="tel" />
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+        <!-- -------------DATALIST, SUBMIT------------- -->
+        <form action="/action_page.php">
+            <input list="browsers" name="browser" />
+            <datalist id="browsers">
+                <option value="Abror Tog'a"></option>
+                <option value="Shavkat Tog'a"></option>
+                <option value="Najimbey"></option>
+                <option value="Otabek aka"></option>
+                <option value="Shukrulloh Tog'a"></option>
+            </datalist>
+            <input type="submit" value="Submit" />
+        </form>
+
+        <form action="/action_page.php">
+            <label for="image">What is your image?</label>
+            <input id="image" name="What is your image?" type="image" />
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="color">What is your color?</label>
+            <input id="color" name="What is your color?" type="color" />
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="time">What is your time?</label>
+            <input type="time"  id="time" name="What is your time?" placeholder="What is the time?"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="hidden">To hide</label>
+            <input type="hidden"  id="hidden" name="To hide" placeholder="What is the time?"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="password">Whta is the password?</label>
+            <input type="password"  id="hidden" name="What is the password?" placeholder="What is the password" maxlength="10" autocomplete="on"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="month">What is the month?</label>
+            <input type="month"  id="hidden" name="What is the month" placeholder="What is the month?"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        
+        <form action="/action_page.php">
+            <label for="reset">What is reset?</label>
+            <input type="reset"  id="reset" name="What is reset" placeholder="What is reset"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="range">What is range?</label>
+            <input type="range"  id="range" name="What is range" placeholder="What is range"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="url">What is url?</label>
+            <input type="url"  id="url" name="What is url" placeholder="What is url"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+
+        <form action="/action_page.php">
+            <label for="tel">What is reset?</label>
+            <input type="tel"  id="reset" name="What is reset" placeholder="What is reset"/>
+            <!-- <input type="number" name="What is your phone number?" id="number" > -->
+        </form>
+    </div>
+</body>
+</html>

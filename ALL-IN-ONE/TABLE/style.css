@@ -1,0 +1,52 @@
+#table{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 50px;
+}
+
+#table tr:nth-child(even) {
+    background-color: #dddddd;
+    border: 1px solid #000000;
+  }
+
+  tr{
+    text-align: center;
+  }
+
+  .table, th, td{
+  border-collapse: collapse;
+  border: 1px solid #ffffff;
+  
+  }
+
+  .table tr{
+    background-color: aqua;
+  }
+
+  .table{
+    margin-top: 50px;
+    width: 30%;
+  }
+
+  #id, th, td{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+  }
+
+  #id{
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+  }
+
+  #id th, td{
+    padding: 0px;
+  }
+
+  th, td{
+    border-radius: 10px;
+  }
+
+ 
+ 
